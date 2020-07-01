@@ -1,23 +1,23 @@
-# coding_challenge_IIII
+### Framework Structure
+#### Cucumber with PageObject Design Pattern
+1. Features     
+2. Data
+3. Reports
+4. src
+     - Pages
+          -  add_user_page.js
+          -  user_management_page.js
+5. stepdefination
+     - usersteps.js     
+6. util
+     - hooks.js
+     - timeout.js
 
-Instructions:
+Pre-requisite: 
+Node.js including NPM should be installed on the system and path environment variable must be updated.                 
+ 
+Steps to run the test
+Installation/Setup:  npm run setup
+To run the Test:     npm  test
 
-Fork this repo.
-
-Clone the repo and push up your changes and share link.
-
-Using Protractor or WebDriverIO Bonus points for leveraging a BDD tool.
-
-Create a branch and name it with your "{firstname_lastname}_LL_challenge"
-Make sure to update your README to show how to run your scripts
-Fulfill the following two scenarios
-Once complete push your branch up
-
-Feature: Automate
-     As an Engr. Candidate
-     I need to automate http://www.way2automation.com/angularjs-protractor/webtables/
-     So I can show my automation capabilities
-
-Scenario: Add a user and validate the user has been added to the table
-
-Scenario: Delete user User Name: novak and validate user has been deleted
+Note: once test run completed then reports will be created under ./reports folder
