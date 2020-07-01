@@ -16,8 +16,8 @@
 Pre-requisite: 
 Node.js including NPM should be installed on the system and path environment variable must be updated.                 
  
-Steps to run the test
-Installation/Setup:  npm run setup
-To run the Test:     npm  test
+Steps to run the test </br>
+Installation/Setup:  npm run setup </br>
+To run the Test:     npm  test </br>
 
 Note: once test run completed then reports will be created under ./reports folder
